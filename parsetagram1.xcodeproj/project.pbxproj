@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1558CFE2C7EFB12F7FBB3BB5 /* Pods_parsetagram1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A24558EE44835C6A851689 /* Pods_parsetagram1Tests.framework */; };
 		15A78BDE1C6B4D0946C07688 /* Pods_parsetagram1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDA71671F2D566A42DEB43B /* Pods_parsetagram1.framework */; };
+		22FA0CC5224D98BF00522DE0 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA0CC4224D98BF00522DE0 /* CommentCell.swift */; };
 		22FB5DBA2246FCDC00F70A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB5DB92246FCDC00F70A6B /* AppDelegate.swift */; };
 		22FB5DBC2246FCDC00F70A6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB5DBB2246FCDC00F70A6B /* ViewController.swift */; };
 		22FB5DBF2246FCDC00F70A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FB5DBD2246FCDC00F70A6B /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		01A24558EE44835C6A851689 /* Pods_parsetagram1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parsetagram1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F0CD076EA2955303BA56EA /* Pods-parsetagram1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parsetagram1.release.xcconfig"; path = "Target Support Files/Pods-parsetagram1/Pods-parsetagram1.release.xcconfig"; sourceTree = "<group>"; };
 		129B77BCC6FBC395FF34F0A9 /* Pods-parsetagram1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parsetagram1UITests.debug.xcconfig"; path = "Target Support Files/Pods-parsetagram1UITests/Pods-parsetagram1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		22FA0CC4224D98BF00522DE0 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		22FB5DB62246FCDC00F70A6B /* parsetagram1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parsetagram1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB5DB92246FCDC00F70A6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FB5DBB2246FCDC00F70A6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				22FB5DE9224702F700F70A6B /* FeedViewController.swift */,
 				22FB5DBD2246FCDC00F70A6B /* Main.storyboard */,
 				22FB5DE7224702D900F70A6B /* LoginViewController.swift */,
+				22FA0CC4224D98BF00522DE0 /* CommentCell.swift */,
 				22FB5DC02246FCE600F70A6B /* Assets.xcassets */,
 				22FB5DC22246FCE600F70A6B /* LaunchScreen.storyboard */,
 				22FB5DC52246FCE600F70A6B /* Info.plist */,
@@ -386,6 +389,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -395,6 +399,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +420,7 @@
 				22FB5DEA224702F700F70A6B /* FeedViewController.swift in Sources */,
 				22FB5DBA2246FCDC00F70A6B /* AppDelegate.swift in Sources */,
 				22FB5DF2224718F700F70A6B /* PostCell.swift in Sources */,
+				22FA0CC5224D98BF00522DE0 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
